@@ -1,4 +1,4 @@
-//Data types, variables ad functions
+//Data types, variables and functions
 pragma solidity ^0.8.13;
 
 contract Hello {
