@@ -6,6 +6,7 @@
 
 ## Day 1: Introduction to Solidity :
 
+
 ### Learn about Solidity's features and its role in blockchain development.
 ### Understand the basics of smart contracts and their applications.
 
