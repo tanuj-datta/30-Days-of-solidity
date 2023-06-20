@@ -12,7 +12,7 @@ contract MappingAndModifiers {
 
     modifier onlyOwner() {
         require(msg.sender == owner, "Only the contract owner can access this function");
-       
+    
     }
 
     modifier positiveAmount(uint256 _amount) {
