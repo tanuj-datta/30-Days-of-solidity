@@ -17,7 +17,7 @@ contract MappingAndModifiers {
 
     modifier positiveAmount(uint256 _amount) {
         require(_amount > 0, "Amount must be positive");
-      
+ 
     }
 
     function deposit(uint256 _amount) public onlyOwner positiveAmount(_amount) {
