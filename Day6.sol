@@ -8,7 +8,6 @@ contract EventsAndErrorHandling {
         
         balances[msg.sender] -= _amount;
         balances[_recipient] += _amount;
-
         emit Transfer(msg.sender, _recipient, _amount);
     }
 
