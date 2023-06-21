@@ -1,6 +1,5 @@
 //events and error handling in Solidity
 pragma solidity ^0.8.13;
-
 contract EventsAndErrorHandling {
     mapping(address => uint256) balances;
 
