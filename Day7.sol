@@ -19,6 +19,5 @@ string public symbol;
 constructor(string memory _name, string memory _symbol) {
   name = _name;
   symbol = _symbol;
-
 }
 }
