@@ -11,7 +11,6 @@ constructor() {
 modifier onlyOwner() {
   require(msg.sender==owner, "only contract owner can access this");
     }
-
 }
 contract Token is Ownable {
 string public name;
