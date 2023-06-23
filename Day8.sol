@@ -6,6 +6,7 @@ contract Token {
     uint256 public totalSupply;
     mapping(address => uint256) balances;
 
+
     constructor(string memory _name, string memory _symbol, uint256 _totalSupply) {
         name = _name;
         symbol = _symbol;
