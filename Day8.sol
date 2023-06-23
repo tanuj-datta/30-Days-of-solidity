@@ -1,4 +1,3 @@
-
 pragma solidity ^0.8.13;
 
 contract Token {
@@ -25,10 +24,8 @@ contract Token {
         balances[_recipient] += _amount;
     }
 }
-
 contract TokenExchange {
     function listToken(Token _token) public {
-       
     }
 
     function buyToken(Token _token, uint256 _amount) public {
