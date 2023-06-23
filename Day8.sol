@@ -12,6 +12,7 @@ contract Token {
         symbol = _symbol;
         totalSupply = _totalSupply;
         balances[msg.sender] = _totalSupply;
+
     }
 
     function balanceOf(address _address) public view returns (uint256) {
