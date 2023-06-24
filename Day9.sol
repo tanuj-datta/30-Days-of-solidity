@@ -17,7 +17,6 @@ contract Crowdfunding {
 
     modifier campaignOpen() {
         require(isOpen, "The campaign is closed");
-    
     }
 
     function contribute() public payable campaignOpen {
