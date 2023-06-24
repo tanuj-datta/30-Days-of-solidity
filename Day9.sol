@@ -21,8 +21,7 @@ contract Crowdfunding {
 
     function contribute() public payable campaignOpen {
         require(amountRaised + msg.value <= targetAmount, "The target amount has already been reached");
-        amountRaised += msg.value;
-    }
+        amountRaised += msg.value; }
 
     function closeCampaign() public onlyOwner {
         isOpen = false;
