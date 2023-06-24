@@ -13,7 +13,6 @@ contract Crowdfunding {
 
     modifier onlyOwner() {
         require(msg.sender == owner, "Only the campaign owner can access this function");
-    
     }
 
     modifier campaignOpen() {
