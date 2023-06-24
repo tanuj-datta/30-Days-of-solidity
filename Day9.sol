@@ -9,8 +9,7 @@ contract Crowdfunding {
     constructor(address _owner, uint256 _targetAmount) {
         owner = _owner;
         targetAmount = _targetAmount;
-        isOpen = true;
-    }
+        isOpen = true;}
 
     modifier onlyOwner() {
         require(msg.sender == owner, "Only the campaign owner can access this function");
