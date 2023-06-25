@@ -4,8 +4,7 @@ contract AddressBook {
     struct Contact {
         string name;
         string phone;
-        string email;
-    }
+        string email;}
     mapping(address => Contact) public contacts;
     function addContact(string memory _name, string memory _phone, string memory _email) public {
         Contact memory newContact = Contact(_name, _phone, _email);
