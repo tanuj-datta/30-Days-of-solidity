@@ -9,7 +9,7 @@ contract Voting {
     constructor() {
         candidates["Candidate 1"] = 0;
         candidates["Candidate 2"] = 0;
-    }
+}
 
     function vote(string memory _candidate) public {
         candidates[_candidate]++;
