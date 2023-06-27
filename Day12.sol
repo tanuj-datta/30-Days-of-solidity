@@ -5,7 +5,6 @@ abstract contract Animal {
     function sound() public pure virtual returns (string memory);
     function eat(string memory food) internal virtual;
 }
-
 contract Cat is Animal {
     function sound() public pure override returns (string memory) {
         return "Meow";
