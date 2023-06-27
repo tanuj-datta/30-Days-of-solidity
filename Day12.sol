@@ -15,8 +15,7 @@ contract Cat is Animal {
 
 contract Dog is Animal {
     function sound() public pure override returns (string memory) {
-        return "Woof";
-    }
+        return "Woof";    }
 
     function eat(string memory food) internal override {
         
