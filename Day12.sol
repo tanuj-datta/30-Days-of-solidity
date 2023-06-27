@@ -10,8 +10,7 @@ contract Cat is Animal {
         return "Meow";
     }
 
-    function eat(string memory food) internal override {
-       
+    function eat(string memory food) internal override { 
     }
 }
 
