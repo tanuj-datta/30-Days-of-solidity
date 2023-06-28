@@ -8,14 +8,12 @@ interface IERC20 {
 contract Token is IERC20 {
   
 }
-
 contract TokenHolder {
     IERC20 private token;
 
     function setTokenAddress(address _tokenAddress) public {
         token = IERC20(_tokenAddress);
     }
-
     function transferTokens(address _recipient, uint256 _amount) public {
         token.transfer(_recipient, _amount);
     }
